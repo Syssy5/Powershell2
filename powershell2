@@ -33,8 +33,8 @@ Mode                 LastWriteTime         Length Name
   -- -----------                                                                                                                                                                             
    1 Définir-Emplacement -Chemin C:\...                                                                                                                                                               
    
-   2 New-Item -ItemType Répertoire -Chemin "C:\OddFolder", "C:\EvenFolder"
-   3 Move-Item -Chemin "C:\FolderTest1\File1", "C:\FolderTest1\File3", "C:\FolderTest1\File5" -Destination C:\OddFolder\
-   4 Move-Item -Chemin "C:\FolderTest1\File2", "C:\FolderTest1\File4" -Destination C:\EvenFolder\
-   5 Move-Item -Chemin "C:\FolderTest2\File6", "C:\FolderTest2\File8", "C:\FolderTest2\File10" -Destination C:\EvenFolder\
-   6 Move-Item -Chemin "C:\FolderTest2\File7", "C:\FolderTest2\File9" -Destination C:\OddFolder\
+   2 New-Item -ItemType Répertoire -Path "C:\OddFolder", "C:\EvenFolder"
+   3 Move-Item -Path "C:\FolderTest1\File1", "C:\FolderTest1\File3", "C:\FolderTest1\File5" -Destination C:\OddFolder\
+   4 Move-Item -Path "C:\FolderTest1\File2", "C:\FolderTest1\File4" -Destination C:\EvenFolder\
+   5 Move-Item -Path "C:\FolderTest2\File6", "C:\FolderTest2\File8", "C:\FolderTest2\File10" -Destination C:\EvenFolder\
+   6 Move-Item -Path "C:\FolderTest2\File7", "C:\FolderTest2\File9" -Destination C:\OddFolder\
